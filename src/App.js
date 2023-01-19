@@ -5,18 +5,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <form>
+          <label>Pantalla Inicial</label><br></br>
+            <input type="text" name="ciudad" placeholder='Ingrese Ciudad' />
+          <input type="submit" name='ubi' value="Usar mi ubicación" />
+          <input type="submit" name='envi' value="Buscar" />
+          
+        </form>
       </header>
     </div>
   );
